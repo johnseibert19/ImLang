@@ -1,7 +1,7 @@
 /**
  * Represents a single entry in the Symbol Table.
  * Tracks name, type, numeric scope level, specific scope label, and attributes.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public record Symbol(
         String name,
@@ -11,4 +11,5 @@ public record Symbol(
         String attribute
 ) {
     // Record automatically provides accessors.
+
 }
