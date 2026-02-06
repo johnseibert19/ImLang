@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * ImLang Parser (Table-Driven LL(1)).
  * Validates the syntax of the ImLang Design specification.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public class ImLangParser {
 
@@ -408,4 +408,5 @@ public class ImLangParser {
         }
         return false;
     }
+
 }
