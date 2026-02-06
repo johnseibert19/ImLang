@@ -11,7 +11,7 @@ import java.util.Stack;
  * Considers validation for load(), save(), filter(), crop(), Control Structures,
  * Math/Bounds checking, Logical/Arithmetic Operators, Loop Context, Unreachable Code,
  * and Self-Assignment.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public class ImLangSemanticAnalyzer {
 
@@ -1106,4 +1106,5 @@ public class ImLangSemanticAnalyzer {
         Token t = safeGet(tokens, index);
         return (t != null) ? t.type() : null;
     }
+
 }
