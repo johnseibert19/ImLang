@@ -23,7 +23,7 @@ import java.util.Optional;
  * Connects the JavaFX GUI to the refactored Scanner, Parser, AND Semantic Analyzer phases.
  * This class handles the initialization of the UI, file operations, and the execution
  * of the compiler pipeline.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public class Launcher extends Application {
 
@@ -554,4 +554,5 @@ public class Launcher extends Application {
         }
         return result.isPresent() && result.get() == ButtonType.NO;
     }
+
 }
