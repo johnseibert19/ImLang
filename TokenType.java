@@ -1,6 +1,6 @@
 /**
  * Defines the vocabulary for the Scanner and Parser.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public enum TokenType {
     // literals
@@ -28,4 +28,5 @@ public enum TokenType {
     ID,
     EOF,
     ERROR
+
 }
