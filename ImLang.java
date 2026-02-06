@@ -6,7 +6,7 @@ import java.util.Map;
  * ImLang Scanner (Lexical Analyzer).
  * Converts source code strings into a List of strongly-typed Tokens.
  * Features: Scientific Notation, Underscores in IDs, Line Counting, Unary Minus fix.
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public class ImLang {
 
@@ -418,4 +418,5 @@ public class ImLang {
     private static boolean isWhitespace(char c) {
         return c == ' ' || c == '\r' || c == '\t' || c == '\n';
     }
+
 }
