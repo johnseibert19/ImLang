@@ -5,7 +5,7 @@
  * @param lexeme  The actual text found (e.g., "myVar", "123")
  * @param literal The parsed value (e.g., 123, "hello")
  * @param line    The line number where this token appears
- * @author John Seibert
+ * @author John Seibert, Dylan Kauffman, Jack Norfolk
  */
 public record Token(TokenType type, String lexeme, Object literal, int line) {
 
@@ -13,4 +13,5 @@ public record Token(TokenType type, String lexeme, Object literal, int line) {
     public String toString() {
         return String.format("%-15s | %-15s | Line %d", type, lexeme, line);
     }
+
 }
